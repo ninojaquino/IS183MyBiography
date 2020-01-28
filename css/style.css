@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+h2 {
+    padding: 20px 0px 15px 0px;
+}
+
+
+p {
+    margin: 10px 0px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box-shadow {
+    -webkit-box-shadow: -5px 4px 9px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 4px 9px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: -5px 4px 9px 1px rgba(0, 0, 0, 0.75);
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.main-body-container {
+    background-image: url('../img/background.jpg');
+}
+
+.main-header,
+.main-footer {
+    height: 75px;
+    width: 100vw;
+    background-color: purple;
+}
+
+.logo-text {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main-container {
+    height: calc(100vh - 150px);
+    width: 90vw;
+    margin: 0px auto;
+}
+
+.top-section {
+    width: 100%;
+    background-color: #0099ff;
+    height: 210px;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.top-inner-section {
+    overflow: auto;
+}
+
+.bottom-section {
+    width: 100%;
+    height: 63%;
+    background-color: gold;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    background-color: gold;
+    float: left;
+}
+
+.gallery {
+    height: 100%;
+    margin-left: 25%;
+    padding: 0px 1em;
+    overflow: auto;
+}
+
+.pic-container {
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.pic-container>img {
+    object-fit: cover;
+    display: block;
+    width: 190px;
+    margin: 10px;
+}
+
+.footer-text {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar>ul {
+    list-style-type: none;
+}
+
+.sidebar>ul>li>a {
+    padding: 15px 20px;
+    display: block;
+    background-color: gold;
+    border: 1px solid #f1f1f1;
+    transition-duration: 0.5s;
+}
+
+.sidebar>ul>li a:hover {
+    background-color: #0099ff;
+}
+
+.gallery-container {
+    list-style-type: none;
+    text-align: center;
+}
+
+.gallery-container>li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.gallery-container>li>img {
+    width: 175px;
+    height: 150px;
+    /* object-fit: cover; */
+}
