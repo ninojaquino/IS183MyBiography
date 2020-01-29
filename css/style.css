@@ -54,6 +54,7 @@ a {
     padding: 20px;
     font-weight: bold;
     font-size: 30px;
+    color: white;
 }
 
 .main-container {
@@ -111,6 +112,7 @@ a {
     display: block;
     text-align: center;
     padding: 20px;
+    color: white;
 }
 
 .sidebar>ul {
